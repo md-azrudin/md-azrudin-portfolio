@@ -131,10 +131,14 @@ nav ul li a:hover{
 /* ===== MOBILE ===== */
 
 @media(max-width:900px){
+header{
+     position:relative;
+}
 
 .hero{
     flex-direction:column-reverse;
     text-align:center;
+   padding-top:20px;
 }
 
 .left{
